@@ -244,3 +244,9 @@ body::-webkit-scrollbar-thumb {
   background-color: grey;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
+
+@media only screen and (max-width: 800px) {
+  .videoAd{
+    width: 450px;
+  }
+}
