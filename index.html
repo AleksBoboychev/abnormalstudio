@@ -376,22 +376,22 @@ body, html {
     <center><p data-aos="zoom-in"><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right" data-aos="zoom-in"></i> Phone: (+44) 7405 500464</p></center>
     <center><p data-aos="zoom-in"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right" data-aos="zoom-in"></i> Email: aleksboboychev@gmail.com</p></center>
     <br>
-    <p class="w3-center">
+    <!-- <p class="w3-center">
       <a href="https://mailchi.mp/324e13002e18/abnormal-studio"><button class="w3-center w3-button w3-black" data-aos="zoom-in" type="submit" name="submit">
         <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button></a>
-    <!-- <form target="_blank">
-      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      </button></a> -->
+    <form class="contact-form" action="contactform.php" method="post">
+      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Name" required name="Name" name="name"></p>
+      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Email" required name="Email" name="email"></p>
+      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Subject" required name="Subject" name="subject"></p>
+      <p><input class="w3-center w3-input w3-border" type="text" placeholder="Message" required name="Message" name="message"></p>
       <p class="w3-center">
         <button class="w3-center w3-button w3-black" type="submit" name="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
-    </form> -->
-    
+    </form>
+
     <!-- Image of location/map -->
     <img src="assests/SouthamptonFooter.png" style="width:100%;margin-top:48px" data-aos="fade-right" data-aos-delay="500">
   </div>
